@@ -1,0 +1,84 @@
+<!doctype HTML>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .rectangle {
+    height: 80px;
+    width: 14.5in;
+    margin-top: -8px;
+    margin-left: -8px;
+    background-color: #2d0344;
+    }
+    .rectangle_check-out {
+    height: 5in;
+    width: 4.5in;
+    border-radius: 20px;
+    border-color: #a2a2a2;
+    border-style: groove;
+    border-width: 1px;
+    margin-top: -8px;
+    margin-left: -8px;
+    background-color: #2d0344;
+   }
+    </style>
+</head>
+<body background="background-gray.png">
+
+    <div class="rectangle"> 
+    
+        <table width="100%">
+            <tr  width="10%">
+               <td style="color: white;">
+                 <h1 style="margin-left: 6%;">
+                     Room Management System
+                 </h1> 
+                </td>
+                <td width="71%" style="margin-top: 10px">
+                
+                 <div style="color: white; font-family: Arial; font-size: 14px; text-align: right;  margin-right: 8%;"> 
+                     <label > Login<label>
+                         <label > | </label>
+                     <label>User Name<label>
+                     <label > | </label>
+                     <img src="setting-icon.png" width="18px" alt="icon-setting" style="margin-top: 10px;">
+                 </div>
+             </td>
+             </tr>
+        </table>
+     </div>
+     <object width="65%" align="right" style="margin-top: 40px;">
+        
+        <div class="rectangle_check-out" style="background-color: #f8eefe; ">
+            <h2 style="font-family:sans-serif; font-size: 25px; margin-left: 5%;" >Chech-Out</h2>
+            <form style="font-family: Arial; margin-left: 5%; margin-top: 10%">
+                
+                <input type="text" name="name" placeholder="Room no" Style="width: 4in; height: .3in; border-radius: 8px; border-style: groove;"><br>
+                Room no.<br><br>
+                <input type="text" name="Room no" placeholder="Time" Style="width: 4in; height: .3in; border-radius: 8px; border-style: groove;"><br>
+                Time Check-out<br><br>
+                <input type="text" name="Time check-in" placeholder="0.00Php" Style="width: 4in; height: .3in; border-radius: 8px; border-style: groove;"><br>
+                Charge fee<br><br>
+                <input type="text" name="Date and time" placeholder="0.00Php" Style="width: 4in; height: .3in; border-radius: 8px; border-style: groove;"><br>
+                Cash receive<br><br>
+                <input type="text" name="Date and time" placeholder="0.00Php" Style="width: 4in; height: .3in; border-radius: 8px; border-style: groove;"><br>
+                Change<br><br>
+                <input type="submit" name="Save"  value="Save" Style="width: 1in; height: .2in; background-color: #8b03d5; color: white; border-radius: 8px; border-style: unset; margin-left: 47%;">
+                <button type="button" name="Cancel" onclick="myFunction()" Style="width: 1in; height: .2in; background-color: #ff4848; color: white; border-radius: 8px; border-style: unset;">
+                cancel
+                </button>
+                <script>
+                    function myFunction() {
+                      location.replace("dashboard.html")
+                    }
+                </script>
+            </form>
+         
+        </div>
+     </object>
+     
+  
+</body>
+
+</html>

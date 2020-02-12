@@ -1,0 +1,23 @@
+.input_box input{
+
+    width: 4in;
+    height: .3in;
+    border-radius: 8px;
+    border-style: groove;
+}
+button_submit
+.button_submit{
+
+    width: 1in;
+    height: .2in;
+    background-color: #8b03d5;
+    color: white;
+    border-radius: 8px;
+    border-style: unset;
+    margin-left: 47%;
+}
+.rooms_panel
+{
+    width: 1in;
+
+}
